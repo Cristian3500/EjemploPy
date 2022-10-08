@@ -1,0 +1,7 @@
+1. Instalar python
+2. Instalar libreria numpy 
+    - curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py           --- Instalar pip
+    - & C:/Users/Power/AppData/Local/Programs/Python/Python310/python.exe get-pip.py 
+    - C:\Users\Power\AppData\Local\Programs\Python\Python310\Scripts\pip install numpy  --- Instalar numpy
+
+3. Instalar extensión Python Visual.

@@ -1,0 +1,6 @@
+git init 											--- Inicar Repositorio
+git config --global --add safe.directory 'D:/Phyton/Algebra Lineal'  	--- Repostiorio seguro.
+git commit -m "Comentario" 								--- Commit de cambios.
+git status 											--- Status del proyecto.
+git add <some-file> # Stage a file
+git commit # Commit a file</some-file>
