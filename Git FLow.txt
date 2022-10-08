@@ -1,6 +1,24 @@
-git init 											--- Inicar Repositorio
+git init 											--- Inicar Repositorio.
+git add .											--- Agregar todos los archivos del repositorio.
 git config --global --add safe.directory 'D:/Phyton/Algebra Lineal'  	--- Repostiorio seguro.
 git commit -m "Comentario" 								--- Commit de cambios.
 git status 											--- Status del proyecto.
-git add <some-file> # Stage a file
-git commit # Commit a file</some-file>
+
+git remote add origin https://github.com/Cristian3500/EjemploPy.git	--- Agregar repositorio a github.
+git branch -M main									--- Agregar a rama Master.
+git push -u origin main									--- Subir Cambios.
+
+
+Ramas de función en Git.
+
+1. 	git checkout main 					--- Actualizacion del main en local.
+	git fetch origin 						--- Se busca origen.
+	git reset --hard origin/main 				--- Deseche todos mis cambios preparados y no preparados, olvídese de todo en mi rama local actual y hágalo exactamente igual que origin/master.
+
+2.	git checkout -b new-feature				--- Crea una rama nueva. Se extrae una rama llamada "new-feature" a partir de la main, "-b" ordena a Git que la cree en caso de que esta no exista.
+
+	--- Se agregan los archivos a la nueva rama.
+3.	git status							
+	git add <some-file>
+	git commit
+
